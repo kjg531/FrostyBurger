@@ -1,0 +1,87 @@
+body {
+}
+
+nav a {
+  padding-top: 0px !important;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+
+nav .navbar-toggle {
+  /* margin: 20px 25px 0px 0; */
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar {
+   -webkit-transition: height 0.5s !important;
+   transition: height 0.5s !important;
+   width: 100%;
+   height: 240px;
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+  height: 100px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+  line-height: 38px !important;
+  padding: 9px 10px;
+  background-color: rgb(37,54,120);
+}
+
+nav.shrink .logo {
+  height: 70px;
+  width: 70px;
+  margin-top: -10px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  -webkit-transition: height 0.5s !important;
+  transition: height 0.5s !important;
+}
+
+nav.shrink .address-bar {
+  line-height20px !important;
+  }
+
+
+nav.shrink li a{
+    line-height: 35px !important;
+    height: 65px;
+    background: transparent !important;
+}
+
+nav.shrink .navbar-nav li {
+    line-height: 65px !important;
+    text-align: right;
+    right: 0;
+}
+
+@media (max-width : 767px) {
+    nav.shrink .navbar-nav li a {
+        line-height: 30px !important;
+        background: rgb(255,255,255) !important;
+    }
+
+@media (min-width : 768px) {
+    nav.shrink .navbar-nav li a {
+        line-height: 105px !important;
+        background: inherit !important;
+    }
+}
